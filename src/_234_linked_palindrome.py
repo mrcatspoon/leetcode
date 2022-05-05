@@ -1,5 +1,4 @@
 # https://leetcode.com/problems/palindrome-linked-list/
-# Follow up: Could you do it in O(n) time and O(1) space?
 from typing import Optional
 
 
