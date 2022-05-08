@@ -3,8 +3,6 @@ from typing import List
 
 
 class Solution:
-    __slots__ = ()
-
     def search(self, nums: List[int], target: int) -> int:
         low, high = 0, len(nums)
         while low < high:

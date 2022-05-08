@@ -2,8 +2,6 @@
 
 
 class Solution:
-    __slots__ = ()
-
     def firstBadVersion(self, n: int) -> int:
         if n == 1:
             return 1

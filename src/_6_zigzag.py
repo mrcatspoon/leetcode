@@ -3,8 +3,6 @@ from collections import defaultdict
 
 
 class Solution:
-    __slots__ = ()
-
     def convert(self, s: str, numRows: int) -> str:
         if numRows == 1:
             return s
