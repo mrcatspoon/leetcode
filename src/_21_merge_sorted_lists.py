@@ -10,7 +10,7 @@ class ListNode:
         self.next = next
 
     def __repr__(self):
-        return str(self.val)
+        return f"{self.val} -> {self.next}"
 
 
 class Solution:
