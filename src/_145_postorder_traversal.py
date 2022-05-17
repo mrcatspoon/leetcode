@@ -15,15 +15,15 @@ class TreeNode:
 
 
 class Solution:
-    def preorderTraversal(self, root: Optional[TreeNode]) -> List[int]:
+    def postorderTraversal(self, root: Optional[TreeNode]) -> List[int]:
         result = []
         if root:
             self.traverse(root, result)
         return result
 
     def traverse(self, root: Optional[TreeNode], result: List[int]):
-        result.append(root.val)
         if root.left:
             self.traverse(root.left, result)
         if root.right:
             self.traverse(root.right, result)
+        result.append(root.val)
